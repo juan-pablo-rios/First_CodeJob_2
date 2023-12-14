@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{First_CodeJob}</title>
+    <link rel="stylesheet" href="./CSS/variables.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <script type="text/javascript">
+        const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- MENÚ HAMBURGUESA -->
+    <button class="burger" onclick="toggleMenu()"></button>
+    <div class="background"></div>
+    <div class="menu">
+        <nav>
+            <a href="./HTML/ofertas.html" class="burger_menu_item_1" style="animation-delay: 0.1s">Ofertas</a>
+            <a href="./HTML/rutas.html" class="burger_menu_item_2" style="animation-delay: 0.3s">Rutas</a>
+            <a href="./HTML/acerca.html" class="burger_menu_item_3" style="animation-delay: 0.4s">Acerca de</a>
+            <a href="./HTML/signup.html" class="burger_menu_item_4" style="animation-delay: 0.5s">Registrarse</a>
+            <a href="./HTML/signin.html" class="burger_menu_item_5" style="animation-delay: 0.6s">Iniciar Sesión</a>
+        </nav>
+    </div>
+    <!-- CONTENT -->
+    <div id="container">
+        <!------------------------------- MENÚ ------------------------------>
+        <nav class="container_menu">
+            <header class="header_container">
+                <span class="brackets bracket_1">{</span>
+                <a href="./index.html" class="title" title="{First_CodeJob}">First_CodeJob</a>
+                <span class="brackets bracket_2">}</span>
+            </header>
+            <ul class="container_list">
+                <li class="item item_1"><a href="./HTML/ofertas.html">Ofertas</a></li>
+                <li class="item item_2"><a href="./HTML/rutas.html">Rutas</a></li>
+                <li class="item item_3"><a href="./HTML/acerca.html">Acerca de</a></li>
+                <li class="item item_4"><a href="./HTML/signup.html">Registrarse</a></li>
+                <li class="item item_5"><a href="./HTML/signin.html">Iniciar Sesión</a></li>
+            </ul>
+            <div class="language_container">
+                <ion-icon name="language-outline" class="language_icon"></ion-icon>
+                <a href="./index_en.html" class="language_english_text" title="Inglés">ENG</a>
+            </div>
+        </nav>
+        <!------------------------------ MAIN ------------------------------>
+        <main class="container_main_index">
+            <!-- SLOGAN -->
+            <div class="container_slogan">
+                <h2 class="text_slogan">¡Consigue tu primer empleo como desarrollador!</h2>
+            </div>
+            <!-- SEARCHER -->
+            <div class="search_container">
+                <input class="input_search" type="text" placeholder="Frontend/Backend Developer" title="Escribir oferta">
+                <a href="./HTML/ofertas.html"><button class="button_search" type="submit" title="Buscar oferta">Buscar</button></a>
+            </div>
+            <!-- GENERAL TEXT -->
+            <div class="container_text">
+                <h3 class="text_images">Podrás ser parte de las empresas más top</h3>
+            </div>
+            <!-- COMPANY_IMAGES -->
+            <div class="box_container_companies">
+                <div class="company_boxes caja_1">
+                    <img class="image_companies" src="./img/openAI_company.png" alt="OpenAI" title="OpenAI">
+                </div>
+                <div class="company_boxes caja_2">
+                    <img class="image_companies" src="./img/cisco_company.jpg" alt="Cisco" title="Cisco">
+                </div>
+                <div class="company_boxes caja_3">
+                    <img class="image_companies" src="./img/mawesi_company.png" alt="Mawesi" title="Mawesi">
+                </div>
+                <div class="company_boxes caja_4">
+                    <img class="image_companies" src="./img/google_company.jpg" alt="Google" title="Google">
+                </div>
+                <div class="company_boxes caja_5">
+                    <img class="image_companies" src="./img/kaspersky_company.png" alt="Kaspersky" title="Kaspersky">
+                </div>
+                <div class="company_boxes caja_6">
+                    <img class="image_companies" src="./img/mercado_libre_company.png" alt="Mercado Libre" title="Mercado Libre">    
+                </div>
+                <div class="company_boxes caja_7">
+                    <img class="image_companies" src="./img/redhat_company.jpg" alt="RedHat" title="RedHat">
+                </div>
+                <div class="company_boxes caja_8">
+                    <img class="image_companies" src="./img/globant_company.png" alt="Globant" title="Globant">
+                </div>
+                <div class="company_boxes caja_9">
+                    <img class="image_companies" src="./img/meta_company.png" alt="Meta" title="Meta">   
+                </div>
+                <div class="company_boxes caja_10">
+                    <img class="image_companies" src="./img/x_company.jpg" alt="x" title="x">
+            </div>
+        </div>
+        </main>
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#"><ion-icon name="logo-github"></ion-icon></a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                </li>
+            </ul>
+            <p class="footer_text">&copy;2023 First_CodeJob | Todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>

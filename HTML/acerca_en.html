@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="../CSS/variables.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/acerca.css">
+    <script type="text/javascript">
+        const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- MENÚ HAMBURGUESA -->
+    <button class="burger" onclick="toggleMenu()"></button>
+    <div class="background"></div>
+    <div class="menu">
+        <nav>
+            <a class="burger_menu_item_1" style="animation-delay: 0.1s" href="./ofertas_en.html">Offers</a>
+            <a class="burger_menu_item_2" style="animation-delay: 0.3s" href="./rutas_en.html">Paths</a>
+            <a class="burger_menu_item_3" style="animation-delay: 0.4s" href="./acerca_en.html">About us</a>
+            <a class="burger_menu_item_4" style="animation-delay: 0.5s" href="./HTML/signup_en.html">Sign up</a>
+            <a class="burger_menu_item_5" style="animation-delay: 0.6s" href="./HTML/signin_en.html">Sign in</a>
+        </nav>
+    </div>
+    <!-- CONTENT -->
+    <div id="container">
+        <!------------------------------- MENÚ ------------------------------>
+        <nav class="container_menu">
+            <header class="header_container">
+                <span class="brackets bracket_1">{</span>
+                <a href="../index_en.html" class="title" title="{First_CodeJob}">First_CodeJob</a>
+                <span class="brackets bracket_2">}</span>
+            </header>
+            <ul class="container_list">
+                <li class="item item_1"><a href="./ofertas_en.html">Offers</a></li>
+                <li class="item item_2"><a href="./rutas_en.html">Paths</a></li>
+                <li class="item item_3"><a href="./acerca_en.html">About us</a></li>
+                <li class="item item_4"><a href="./signup_en.html">Sign up</a></li>
+                <li class="item item_5"><a href="./signin_en.html">Sign in</a></li>
+            </ul>
+            <div class="language_container">
+                <ion-icon name="language-outline" class="language_icon"></ion-icon>
+                <a href="./HTML/acerca.html" class="language_english_text" title="Spanish">ESP</a>
+            </div>
+        </nav>
+        <!------------------------------ MAIN ------------------------------>
+        <main class="container_main_acerca">
+            
+            <div class="container_acerca_de">
+                <section class="frontend1">
+                    <h2 class="h2_container">Why?</h2>
+                    <p>
+                        We have created this project because the technology industry is known for its constant growth, which has caused the need for software developers or people who meet the technical requirements to implement the solutions required for the industry. 
+                    </p>
+                    <p>
+                        <strong>Solutions</strong>
+                    </p>
+                    <ul>
+                        <li>Specific Target: By focusing exclusively on the technology field, {First_CodeJob} will offer people who have the technical requirements to get their first job; thus offering a more specialized and relevant experience compared to generic job search sites.</li>
+                        <li>Personalization and Accuracy: The platform can leverage technology by personalizing job recommendations and candidate profiles, providing a highly accurate and useful experience for users. </li>
+                        <li>Contribution to the Technology Ecosystem: The platform contributes to the growth and development of the technology ecosystem by helping companies find the technical resources they need to advance their projects and achieve their business goals.</li>
+                    </ul>
+                
+                    <h2 class="h2_container">What is the purpose?</h2>
+                    <p>
+                        <strong>Goals</strong>
+                    </p>
+                    <ul>
+                        <li>Connecting Companies and Developers:The main objective of our project is to be a bridge between companies looking for technical talent and technology professionals or self-taught people looking for job opportunities. Facilitating this connection is essential to address the growing demand for talent in the technology field and to offer companies the opportunity to find the best candidates.</li>
+                        <li>Promote Professional Development: The platform seeks to promote the professional growth and development of developers by providing them with access to a wide range of job opportunities. This allows them to explore new projects, challenges and experiences that match their skills and aspirations.</li>
+                        <li>Optimize the Job Search Process: SSimplifying and accelerating the job search process is one of our main goals. Developers can use the platform to search for jobs that match their technical skills, experience, location and preferences. This reduces stress in the job search and saves them time and effort.</li>
+                        <li>Facilitating Diversity in Technology: Promoting diversity in gender, ethnicity and skills is an important goal. First_CodeJob can offer equal opportunities to all developers, regardless of their background or gender, thus contributing to a more inclusive technology community.</li>
+                        <li>Fostering Innovation: ABy enabling companies to find the talent they need, First_CodeJob fosters innovation in the technology industry. Companies can undertake ambitious projects, develop new products and services, and stay on the cutting edge of technology with the help of top talent which is looking for opportunities and being discovered by companies.</li>
+                    </ul>
+                
+                    <h2>Who is it for?</h2>
+                    <p>
+                        {First_CodeJob} is exclusively for people whose main goal is to get their first job as developers. By connecting them with partner companies, optimizing the process of finding their first job. This specialized approach responds to the growing demand for technical talent and provides valuable experience for both companies and developers looking for their first job experience.
+                    </p>
+                </section>
+
+
+            
+        </main>
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+            </ul>
+            <p>&copy;2023 First_CodeJob | All rights reserved</p>
+        </footer>
+    </div>
+</body>
+</html>

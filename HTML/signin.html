@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../CSS/variables.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/signin.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <script type="text/javascript">
+        const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- MENÚ HAMBURGUESA -->
+    <button class="burger" onclick="toggleMenu()"></button>
+    <div class="background"></div>
+    <div class="menu">
+        <nav>
+            <a class="burger_menu_item_1" style="animation-delay: 0.1s" href="./ofertas.html">Ofertas</a>
+            <a class="burger_menu_item_2" style="animation-delay: 0.3s" href="./rutas.html">Rutas</a>
+            <a class="burger_menu_item_3" style="animation-delay: 0.4s" href="./acerca.html">Acerca de</a>
+            <a class="burger_menu_item_4" style="animation-delay: 0.5s" href="./HTML/signup.html">Registrarse</a>
+            <a class="burger_menu_item_5" style="animation-delay: 0.6s" href="./HTML/signin.html">Iniciar Sesión</a>
+        </nav>
+    </div>
+    <!-- CONTENT -->
+    <div id="container">
+        <!------------------------------- MENÚ ------------------------------>
+        <nav class="container_menu">
+            <header class="header_container">
+                <span class="brackets bracket_1">{</span>
+                <a href="../index.html" class="title" title="{First_CodeJob}">First_CodeJob</a>
+                <span class="brackets bracket_2">}</span>
+            </header>
+            <ul class="container_list">
+                <li class="item item_1"><a href="./ofertas.html">Ofertas</a></li>
+                <li class="item item_2"><a href="./rutas.html">Rutas</a></li>
+                <li class="item item_3"><a href="./acerca.html">Acerca de</a></li>
+                <li class="item item_4"><a href="./signup.html">Registrarse</a></li>
+                <li class="item item_5"><a href="./signin.html">Iniciar Sesión</a></li>
+            </ul>
+            <div class="language_container">
+                <ion-icon name="language-outline" class="language_icon"></ion-icon>
+                <a href="./HTML/signin_en.html" class="language_english_text" title="Inglés">ENG</a>
+            </div>
+        </nav>
+        <!------------------------------ CONTENT ------------------------------>
+        <main class="container_main_signin">
+            <div class="container_button_signin">
+                <button type="submit" class="developer_button_signin" title="Coder">Desarrollador</button>
+                <button type="submit" class="company_button_signin" title="Compañía">Empresa</button>
+            </div>
+            <form class="form_signin">
+                <fieldset class="section_form_signin">
+                    <div class="container_labels_form_signin">
+                        <label for="input_name" class="labels_form_signin">Nombre de usuario</label>
+                        <label for="input_password" class="labels_form_signin">Contraseña</label>
+                    </div>
+                    <div class="container_inputs_form_signin">
+                        <input type="text" name="input_name" id="input_name" class="inputs_form_signin">
+                        <input type="password" id="input_password" class="inputs_form_signin">
+                    </div>
+                </fieldset>
+                <div class="container_buttons_form_signin">
+                    <a href="./HTML/perfil.html" class="button_form_submit_signin" title="Iniciar Sesión">Iniciar Sesión</a>
+                </div>
+            </form>
+        </main>
+        </main>
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <ion-icon name="logo-github"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <ion-icon name="logo-linkedin"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+            </ul>
+            <p class="footer_text">&copy;2023 First_CodeJob | Todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>

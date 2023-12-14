@@ -1,0 +1,59 @@
+.container_main_acerca{
+    display: flex;
+    grid-area: main;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(25, 25, 25);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 200px;
+    padding-top: 80px;
+    color: var(--color-text);
+    text-size-adjust: var(--size-title);
+    text-size-adjust: var( --size-subtitle);
+}
+/*  */
+.container_acerca_de {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* Estilos para los títulos de secciones */
+main h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: var(--color-text);
+}
+/* Estilos para los párrafos */
+main p {
+    line-height: 1.6;
+    color: #c9c9c9;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+/* Estilos para las listas no ordenadas */
+main ul {
+    padding-left: 100px;
+    /* background-color: brown; */
+    margin-bottom: 25px;
+}
+/* Estilos para los elementos de lista */
+main li {
+    /* background-color: aqua; */
+    margin: 15px 0px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+}
+/* Estilos para los elementos de lista con viñetas */
+main li::before {
+    /* content: "•"; */
+    color: #666;
+    display: inline-block;
+    width: 20em;
+    margin-left: -1em;
+    padding-left: 50px;
+    /* background-color: chartreuse; */
+}   

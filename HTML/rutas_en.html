@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Paths</title>
+    <link rel="stylesheet" href="../CSS/variables.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/rutas.css">
+    <script type="text/javascript">
+        const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- MENÚ HAMBURGUESA -->
+    <button class="burger" onclick="toggleMenu()"></button>
+    <div class="background"></div>
+    <div class="menu">
+        <nav>
+            <a class="burger_menu_item_1" style="animation-delay: 0.1s" href="./ofertas_en.html">Offers</a>
+            <a class="burger_menu_item_2" style="animation-delay: 0.3s" href="./rutas_en.html">Paths</a>
+            <a class="burger_menu_item_3" style="animation-delay: 0.4s" href="./acerca_en.html">About us</a>
+            <a class="burger_menu_item_4" style="animation-delay: 0.5s" href="./HTML/signup_en.html">Sign up</a>
+            <a class="burger_menu_item_5" style="animation-delay: 0.6s" href="./HTML/signin_en.html">Sign in</a>
+        </nav>
+    </div>
+    <!-- CONTENT -->
+    <div id="container">
+        <!------------------------------- MENÚ ------------------------------>
+        <nav class="container_menu">
+            <header class="header_container">
+                <span class="brackets bracket_1">{</span>
+                <a href="../index_en.html" class="title" title="{First_CodeJob}">First_CodeJob</a>
+                <span class="brackets bracket_2">}</span>
+            </header>
+            <ul class="container_list">
+                <li class="item item_1"><a href="./ofertas_en.html">Offers</a></li>
+                <li class="item item_2"><a href="./rutas_en.html">Paths</a></li>
+                <li class="item item_3"><a href="./acerca_en.html">About us</a></li>
+                <li class="item item_4"><a href="./signup_en.html">Sign up</a></li>
+                <li class="item item_5"><a href="./signin_en.html">Sign in</a></li>
+            </ul>
+            <div class="language_container">
+                <ion-icon name="language-outline" class="language_icon"></ion-icon>
+                <a href="./HTML/rutas.html" class="language_english_text" title="Spanish">ESP</a>
+            </div>
+        </nav>
+        <!------------------------------ MAIN ------------------------------>
+        <main class="container_main_rutas">
+            <header>
+                <h1 class="title-rutas">Learning Paths</h1>
+            </header>
+            <div class="container-rutas">
+                <section class="conteiner_front" >
+                    <div class="frontend">
+                        <h2>Frontend Development</h2>
+                        <p>Frontend development focuses on the user interface and user experience.</p>
+                        <br>
+                        <h3>HTML, CSS, JavaScript:</h3>
+                        <p>Master HTML for structuring content, CSS for design and JavaScript for interactivity in web pages. Know styling frameworks such as Bootstrap to accelerate the design.</p>
+                        <h3>Frameworks and Libraries:</h3>
+                        <p>Explorar y especializarse en un framework moderno como React, Angular o Vue.js para la construcción de aplicaciones web interactivas.
+                        Comprender el manejo de estado con librerías como Redux (para React) o Vuex (para Vue.js).</p>
+                        <h3>Responsive Design y Performance:</h3>
+                        <p>Explore and specialize in a modern framework such as React, Angular or Vue.js for building interactive web applications. Understand state management with libraries like Redux (for React) or Vuex (for Vue.js).</p>
+                        <h3>Tools and Advanced Development:</h3>
+                        <p>Become familiar with development tools such as npm, Webpack and Babel to automate development tasks. Learn advanced concepts such as server-side rendering, Progressive Web Apps (PWA) and Single Page Applications (SPA).</p>
+                    </div>
+                    <div class="img_front">
+                        <img class="imagenes_ruta imagenes_ruta1" src="../img/image-front.jpg" alt="imege-frontend">
+                    </div>
+                </section>
+                <div></div>
+                <section class="container_back" >
+                    <div class="img_back">
+                        <img class="imagenes_ruta imegenes_rutas2" src="../img/image-back.jpg" alt="image-backend">
+                    </div>
+                    <div class="backend">
+                        <h2>Backend Development</h2>
+                        <p>Backend development deals with the logic and behind-the-scenes operation of an application.</p><br>
+                        <h3>Programming Fundamentals:</h3>
+                        <p>Learn the fundamentals of programming logic using a language such as Python or Java. Understand control structures, functions and data handling.
+                        </p>
+                        <h3>Databases and SQL:</h3>
+                        <p>Study relational databases (such as MySQL or PostgreSQL) and understand how they interact with applications.</p>
+                        <h3>Servers and APIs:</h3>
+                        <p>
+                            Become familiar with the operation of web servers and protocols such as HTTP. Learn to build and consume RESTful APIs using frameworks such as Flask (Python), Express (Node.js) or Spring (Java).
+                        </p>
+                        <h3>Frameworks and Tools</h3>
+                        <p>Learn more about a specific framework according to the chosen language, such as Django (Python), Node.js (for JavaScript) or Spring Boot (Java). Know version control tools such as Git, and understand their use in software development.</p>
+                        <h3>Security and Testing:</h3>
+                        <p>Understand the basic principles of web application security, such as preventing common attacks. Learn how to perform unit tests to ensure code quality.</p>
+                        <h3>Accessibility and Testing:</h3>
+                        <p>Learn about web accessibility practices to make applications more inclusive. Perform user testing and performance testing to ensure usability and efficiency of applications.</p>
+                    </div>
+                </section>
+                <section class="container_base">
+                    <div class="base_datos">
+                        <h2>Databases</h2>
+                        <p>Databases are essential for storing and managing data in applications.</p>
+                        <br>
+                        <h3>Data Modeling and SQL:</h3>
+                        <p>
+                            Study database design and modeling, learning how to represent data effectively. Acquire a solid understanding of SQL to create, query and manipulate data in relational databases such as MySQL, PostgreSQL, or in NoSQL systems such as MongoDB.
+                        </p>
+                        <h3> Optimization and Maintenance:</h3>
+                        <p>Conocer estrategias de optimización de consultas y rendimiento para garantizar bases de datos eficientes. Aprender sobre tareas de mantenimiento como la copia de seguridad, restauración y administración de bases de datos.</p>
+                        <h3>Security and Transactions:</h3>
+                        <p>Understand the importance of database security, including access control and encryption. Understand the concept of database transactions to maintain data integrity.</p>
+                        <h3>Big Data and Distributed Systems:</h3>
+                        <p>Explore concepts related to the management of large data volumes, distributed systems and distributed databases.</p>
+                    </div>
+                    <div class="img_base">
+                        <img class="imegenes_rutas imegenes_rutas3 " src="../img/image-database.jpg" alt="database_image">
+                    </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                </li>
+            </ul>
+            <p>&copy;2023 First_CodeJob | All rights reserved</p>
+        </footer>
+    </div>
+</body>
+</html>

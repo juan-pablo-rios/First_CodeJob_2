@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="../CSS/variables.css">
+    <link rel="stylesheet" href="../CSS/perfil.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
+    <link rel="stylesheet" href="../CSS/header.css" />
+    <script type="text/javascript">
+        const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- MENÚ HAMBURGUESA -->
+    <button class="burger" onclick="toggleMenu()"></button>
+    <div class="background"></div>
+    <div class="menu">
+        <nav>
+            <a class="burger_menu_item_1" style="animation-delay: 0.1s" href="./ofertas_en.html">Offers</a>
+            <a class="burger_menu_item_2" style="animation-delay: 0.3s" href="./rutas_en.html">Paths</a>
+            <a class="burger_menu_item_3" style="animation-delay: 0.4s" href="./acerca_en.html">About us</a>
+            <a class="burger_menu_item_4" style="animation-delay: 0.5s" href="./HTML/signup_en.html">Sign up</a>
+            <a class="burger_menu_item_5" style="animation-delay: 0.6s" href="./HTML/signin_en.html">Sign in</a>
+        </nav>
+    </div>
+    <!-- CONTENT -->
+    <div id="container">
+        <!------------------------------- MENÚ ------------------------------>
+        <nav class="container_menu">
+            <header class="header_container">
+                <span class="brackets bracket_1">{</span>
+                <a href="../index_en.html">
+                    <h1 class="title" title="{First_CodeJob}">First_CodeJob</h1>
+                </a>
+                <span class="brackets bracket_2">}</span>
+            </header>
+            <ul class="container_list">
+                <li class="item item_1"><a href="./ofertas_en.html">Offers</a></li>
+                <li class="item item_2"><a href="./rutas_en.html">Paths</a></li>
+                <li class="item item_3"><a href="./acerca_en.html">About us</a></li>
+                <li class="item item_4"><a href="./signup_en.html">Sign up</a></li>
+                <li class="item item_5"><a href="./signin_en.html">Sign in</a></li>
+            </ul>
+            <div class="language_container">
+                <ion-icon name="language-outline" class="language_icon"></ion-icon>
+                <a href="./HTML/perfil.html" class="language_english_text" title="Spanish">ESP</a>
+            </div>
+        </nav>
+        <!------------------------------ MAIN ------------------------------>
+        <main class="container_main">
+            <!------------------------------ Perfil ------------------------------>
+            <section class="perfil">
+                <div class="container_perfil">
+                    <h2 class="perfil_nombre">Victor Gonzalez</h2>
+                    <ul class="perfil_social-icon">
+                        <li class="perfil_social-icon__item">
+                            <a class="perfil_social-icon__link" href="#">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="perfil_social-icon__item">
+                            <a class="perfil_social-icon__link" href="#">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="perfil_social-icon__item">
+                            <a class="perfil_social-icon__link" href="#">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="perfil_social-icon__item">
+                            <a class="perfil_social-icon__link" href="#">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="perfil_social-icon__item">
+                            <a class="perfil_social-icon__link" href="#">
+                                <ion-icon name="logo-github"></ion-icon></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="perfil_contacto">
+                        <p class="contacto"><ion-icon class="logo_contacto" name="mail-outline"></ion-icon>
+                            victor@gmail.com</p>
+                        <p class="contacto"><ion-icon class="logo_contacto" name="call-outline"></ion-icon> +57
+                            3126666666</p>
+                    </div>
+                </div>
+                <div class="container_foto_perfil">
+                    <img class="foto_peril" src="../img/woman-6194370_640.jpg" alt="foto de peril">
+                </div>
+            </section>
+            <!------------------------------ Sobre mi ------------------------------>
+            <section class="sobremi_container">
+                <h2 class="subtitulos">About me</h2>
+                <p class="sobremi_text">Full-Stack developer with medium experience in frontend and backend technologies. I love working on small and medium projects which have great potential.</p>
+                <p class="sobremi_text">As a self-taught person, I am always learning and improving my skills to offer innovative and creative solutions. </p>
+                <p class="sobremi_text">I currently work as a freelance developer, although my availability is limited. I am always looking for new opportunities to learn and grow, and would love to bring my skills and experience to challenging and exciting projects.</p>
+            </section>
+
+            <!------------------------------ Experiencias ------------------------------>
+            <section class="container_experiencias">
+                <h2 class="subtitulos">Experience</h2>
+                <ul class="experiencias_list">
+                    <li class="experiencias_list_items">
+                        <div>
+                            <h3 class="experiencias_empresas">Freelance - Full-Stack Developer </h3>
+                            <span class="experiencias_año">May 2022</span>
+                        </div>
+                        <ul class="experencias_actividades">
+                            <li class="experencias_actividades_items">Creation and maintenance of data managers (dashboard)</li>
+                            <li class="experencias_actividades_items">Tracking in Jira Software </li>
+                            <li class="experencias_actividades_items">Software management in the cloud (AWS)</li>
+                        </ul>
+                    </li>
+                    <li class="experiencias_list_items">
+                        <div>
+                            <h3 class="experiencias_empresas">Primary Care Foundation</h3>
+                            <span class="experiencias_año">Noviembre 2021 - Mayo 2022</span>
+                        </div>
+                        <ul class="experencia_actividades">
+                            <li class="experencias_actividades_items">Full-stack Developer</li>
+                            <li class="experencias_actividades_items">HTML/CSS/JS web page maintenance</li>
+                            <li class="experencias_actividades_items">ERP Maintenance (C#)</li>
+                            <li class="experencias_actividades_items">Creation of backend services for app</li>
+                            <li class="experencias_actividades_items">Creación gestores de datos y dashboards en React</li>
+                        </ul>
+                    </li>
+                    <li class="experiencias_list_items">
+                        <div>
+                            <h3 class="experiencias_empresas">Obremo SL</h3>
+                            <span class="experiencias_año">October 2018 - March 2021</span>
+                        </div>
+                        <ul class="experencia_actividades">
+                            <li class="experencias_actividades_items">Laying of fiber optic cabling and networks.</li>
+                            <li class="experencias_actividades_items">Configuration of equipment for Internet connection. </li>
+                            <li class="experencias_actividades_items">Network maintenance.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <!------------------------------ Proyectos ------------------------------>
+            <section class="container_proyectos">
+                <h2 class="subtitulos">Projects</h2>
+                <ul class="proyectos_list">
+                    <li class="proyecto_items">
+                        <a href="">
+                            <div class="container_proyecyo_img">
+                                <img class="proyecto_img" src="../img/pexels.jpg" alt="">
+                            </div>
+                            <h3 class="proyecto_empresa">Pexels</h3>
+                            <h4 class="proyecto_año">2023</h4>
+                            <p class="proyecto_actividad">Web portal of activities and data manager for the enterprise
+                            </p>
+                            <ul class="proyecto_herramienta">
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt=""></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt=""></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt=""></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt=""></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt=""></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="proyecto_items">
+                        <a href="#">
+                            <div class="container_proyecyo_img">
+                                <img class="proyecto_img" src="../img/titulo-partes-de-una-pagina-web.jpg" alt="Imagen">
+                            </div>
+                            <h3 class="proyecto_empresa">GoDady</h3>
+                            <h4 class="proyecto_año">2023</h4>
+                            <p class="proyecto_actividad">Web portal of activities and data manager for the enterprise
+                            </p>
+                            <ul class="proyecto_herramienta">
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Imagen"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Imagen"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Imagen"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Imagen"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Imagen"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="proyecto_items">
+                        <a href="#">
+                            <div class="container_proyecyo_img">
+                                <img class="proyecto_img" src="../img/titulo-partes-de-una-pagina-web.jpg" alt="Imagen">
+                            </div>
+                            <h3 class="proyecto_empresa">GoDady</h3>
+                            <h4 class="proyecto_año">2023</h4>
+                            <p class="proyecto_actividad">Web portal of activities and data manager for the enterprise
+                            </p>
+                            <ul class="proyecto_herramienta">
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Image"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Image"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Image"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Image"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Image"></div>
+                                    <span>Figma</span>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="proyecto_items">
+                        <a href="#">
+                            <div class="container_proyecyo_img">
+                                <img class="proyecto_img" src="../img/titulo-partes-de-una-pagina-web.jpg" alt="">
+                            </div>
+                            <h3 class="proyecto_empresa">GoDady</h3>
+                            <h4 class="proyecto_año">2023</h4>
+                            <p class="proyecto_actividad">Web portal of activities and data manager for the enterprise
+                            </p>
+                            <ul class="proyecto_herramienta">
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Image"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Image"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Image"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Image"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                                <li class="proyecto_herramienta_items">
+                                    <div class="container_herramienta_img"><img class="herramienta_img"
+                                            src="../img/figmalogo.png" alt="Image"></div>
+                                    <span class="nombre_herramienta">Figma</span>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!------------------------------ Habilidades ------------------------------>
+            <section class="habilidades_container">
+                <h2 class="subtitulos">Skills</h2>
+                <ul class="habilidades_list">
+                    <li class="proyecto_herramienta_items">
+                        <div class="container_herramienta_img"><img class="herramienta_img" src="../img/figmalogo.png"
+                                alt="Image"></div>
+                        <span class="nombre_herramienta">Figma</span>
+                    </li>
+                    <li class="proyecto_herramienta_items">
+                        <div class="container_herramienta_img"><img class="herramienta_img" src="../img/figmalogo.png"
+                                alt="Image"></div>
+                        <span class="nombre_herramienta">Figma</span>
+                    </li>
+                    <li class="proyecto_herramienta_items">
+                        <div class="container_herramienta_img"><img class="herramienta_img" src="../img/figmalogo.png"
+                                alt="Image"></div>
+                        <span class="nombre_herramienta">Figma</span>
+                    </li>
+                    <li class="proyecto_herramienta_items">
+                        <div class="container_herramienta_img"><img class="herramienta_img" src="../img/figmalogo.png"
+                                alt="Image"></div>
+                        <span class="nombre_herramienta">Figma</span>
+                    </li>
+                    <li class="proyecto_herramienta_items">
+                        <div class="container_herramienta_img"><img class="herramienta_img" src="../img/figmalogo.png"
+                                alt="Image"></div>
+                        <span class="nombre_herramienta">Figma</span>
+                    </li>
+                    <li class="proyecto_herramienta_items">
+                        <div class="container_herramienta_img"><img class="herramienta_img" src="../img/figmalogo.png"
+                                alt="Image"></div>
+                        <span class="nombre_herramienta">Figma</span>
+                    </li>
+                    <li class="proyecto_herramienta_items">
+                        <div class="container_herramienta_img"><img class="herramienta_img" src="../img/figmalogo.png"
+                                alt="Image"></div>
+                        <span class="nombre_herramienta">Figma</span>
+                    </li>
+                    <li class="proyecto_herramienta_items">
+                        <div class="container_herramienta_img"><img class="herramienta_img" src="../img/figmalogo.png"
+                                alt="Image"></div>
+                        <span class="nombre_herramienta">Figma</span>
+                    </li>
+                    <li class="proyecto_herramienta_items">
+                        <div class="container_herramienta_img"><img class="herramienta_img" src="../img/figmalogo.png"
+                                alt="Image"></div>
+                        <span class="nombre_herramienta">Figma</span>
+                    </li>
+                    <li class="proyecto_herramienta_items">
+                        <div class="container_herramienta_img"><img class="herramienta_img" src="../img/figmalogo.png"
+                                alt="Image"></div>
+                        <span class="nombre_herramienta">Figma</span>
+                    </li>
+
+                </ul>
+            </section>
+        </main>
+        <!-----------------------------  FOOTER ---------------------------->
+        <footer class="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+
+            <p>&copy;2023 Firs_CodeJob | All rights reserved</p>
+        </footer>
+    </div>
+</body>
+
+</html>
